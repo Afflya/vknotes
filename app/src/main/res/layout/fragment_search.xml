@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.search.SearchFragment">
+
+    <data>
+
+        <import type="com.afflyas.vknotes.repository.Status"/>
+
+        <variable
+            name="networkState"
+            type="com.afflyas.vknotes.repository.NetworkState" />
+
+        <variable
+            name="refreshState"
+            type="com.afflyas.vknotes.repository.NetworkState" />
+
+    </data>
+
+    <com.afflyas.afflyasnavigation.ANSwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:refreshing="@{refreshState.status == Status.RUNNING}">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager" />
+
+    </com.afflyas.afflyasnavigation.ANSwipeRefreshLayout>
+
+</layout>

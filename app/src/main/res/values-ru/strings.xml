@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VK Заметки</string>
+    <string name="notes">Заметки</string>
+    <string name="search">Поиск</string>
+    <string name="settings">Настройки</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="done">Готово</string>
+    <string name="edit_note">Редактировать</string>
+    <string name="new_note">Создать заметку</string>
+    <string name="text">Текст</string>
+    <string name="edit">Редактировать</string>
+    <string name="sign_in">Войти в VK</string>
+    <string name="no_notes">Нажмите \"+\", чтобы создать свою первую заметку</string>
+    <string name="no_matches">Совпадений не найдено</string>
+    <string name="error_edit">Произошла ошибка</string>
+    <string name="error_authentication">Произошла ошибка авторизации</string>
+    <string name="connection_error">Ошибка подключения</string>
+    <string name="retry">Повторить</string>
+    <string name="photo">Фото</string>
+    <string name="profile">Профиль</string>
+    <string name="logout">Выйти</string>
+    <string name="ui">Интерфейс</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="scroll_hide">Скрывать панели при прокрутке</string>
+    <string name="light">Светлая</string>
+    <string name="about">О программе</string>
+    <string name="review">Написать отзыв</string>
+    <string name="memory_leak">Утечка памяти</string>
+
+</resources>

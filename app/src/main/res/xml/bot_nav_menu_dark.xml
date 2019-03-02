@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/notes"
+        android:icon="@drawable/ic_notes"
+        android:color="@color/colorDTPrimary"/>
+    <item
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        android:color="@color/colorDTPrimary"/>
+    <item
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"
+        android:color="@color/colorDTPrimary"/>
+</menu>

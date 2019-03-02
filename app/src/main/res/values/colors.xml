@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorLTPrimary">#4d7198</color>
+    <color name="colorLTPrimaryDark">#1c466a</color>
+    <color name="colorLTAccent">#7d9fc9</color>
+
+    <color name="colorDTPrimary">#424242</color>
+    <color name="colorDTPrimaryDark">#1b1b1b</color>
+    <color name="colorDTAccent">#4d7198</color>
+
+    <color name="ic_launcher_background">#4D7198</color>
+
+</resources>

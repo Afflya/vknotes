@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.afflyas.vknotes.ui.notes.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes">
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.afflyas.vknotes.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings">
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.afflyas.vknotes.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.afflyas.vknotes.ui.editor.EditorFragment"
+        android:label="fragment_editor"
+        tools:layout="@layout/fragment_editor" >
+        <argument
+            android:name="note"
+            app:argType="com.afflyas.vknotes.vo.VKNote"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_editorFragment"
+        app:destination="@id/editorFragment"
+        app:launchSingleTop="true" />
+
+    <action
+        android:id="@+id/action_global_searchFragment"
+        app:destination="@id/searchFragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/notesFragment" />
+
+    <action
+        android:id="@+id/action_global_notesFragment"
+        app:destination="@id/notesFragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/notesFragment" />
+
+    <action
+        android:id="@+id/action_global_settingsFragment"
+        app:destination="@id/settingsFragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/notesFragment" />
+
+</navigation>

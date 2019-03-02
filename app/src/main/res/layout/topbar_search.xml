@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchView"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:baselineAligned="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:iconifiedByDefault="false"
+    android:queryHint="@string/search"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">VK Notes</string>
+
+    <integer name="com_vk_sdk_AppId">0</integer>
+
+    <string name="notes">Notes</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+
+    <string name="edit_note">Edit Note</string>
+    <string name="new_note">New Note</string>
+
+    <string name="text">Text</string>
+
+    <string name="edit">Edit</string>
+
+    <!--Войти в VK-->
+    <string name="sign_in">Sign in with VK</string>
+
+    <!--Нажмите «+», чтобы создать свою первую заметку-->
+    <string name="no_notes">Tap \"+\" to create your first note</string>
+
+    <!--совпадений не найдено-->
+    <string name="no_matches">No matches found</string>
+
+    <!--Произошла ошибка-->
+    <string name="error_edit">An error has occurred</string>
+    <!--Произошла ошибка авторизации-->
+    <string name="error_authentication">An authentication error occurred</string>
+
+    <string name="connection_error">Connection error</string>
+    <string name="retry">Retry</string>
+    <string name="photo">Photo</string>
+
+    <!--SettingsFragment-->
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="ui">Interface</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="scroll_hide">Hide app bars on scroll</string>
+    <string name="light">Light</string>
+
+
+    <string name="about">About</string>
+    <string name="review">Write Review</string>
+    <string name="memory_leak">Memory Leak</string>
+
+</resources>
